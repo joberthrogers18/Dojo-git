@@ -1,0 +1,12 @@
+{
+  "name": "Dojo-git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joberthrogers18/Dojo-git.git",
+  "author": "Joberth Rogers <joberth.rogers18@gmail.com>",
+  "license": "MIT",
+  
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
