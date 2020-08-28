@@ -5,8 +5,10 @@
   "repository": "https://github.com/joberthrogers18/Dojo-git.git",
   "author": "Joberth Rogers <joberth.rogers18@gmail.com>",
   "license": "MIT",
-  
   "scripts": {
     "start": "node src/index.js"
+  },
+  "dependencies": {
+    "git-commit-msg-linter": "^2.4.5"
   }
 }
