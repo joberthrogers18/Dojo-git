@@ -24,7 +24,6 @@
 - **8.** Aguarde os novos passos.
 
 
-## ISSO É TUDO PESSOAL!
 
 
 
