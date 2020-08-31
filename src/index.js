@@ -2,9 +2,9 @@ const Patient = require('./patient.js');
 
 
 function showInfoUsingConsole() {
-    const patient = new Patient();
+    const patient = new Patient("name", "06577058105", "Quebrada");
 
-    console.log(patient.getPatientAge());
+    patient.getPatientInfo();
     // mostrar dados do paciente
     // Nome: Fulano
     // idade: 25
