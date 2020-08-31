@@ -1,14 +1,19 @@
 class Patient {
     constructor(){
-        this.age = new Date("12/05/1998");
+        this.name = "teste";
+        this.descricao = "paciente de teste"
+        this.age = new Date("12/05/1998")
     }
 
     getPatientInfo() {
-        // escreva sua solução aqui    
+        return{
+            name: this.name,
+            descricao: this.descricao
+        }
     }
 
     getPatientAge(){
-        // escreva sua solução aqui
+        return new Date().getFullYear() - this.age.getFullYear();
     }
 }
 
