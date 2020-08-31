@@ -1,19 +1,21 @@
 class Patient {
-    constructor(name){
-        this.name = name;
+    constructor(name, cpf, endereco){
+        this.name = name
+        this.cpf = cpf;
+        this.address = endereco;
         this.age = new Date("12/05/1998");
     }
 
     getPatientInfo() {
-        return {
+        // escreva sua solução aqui    
+        console.log({
             name: this.name,
-            age: this.getPatientAge(),
-        }    
+            address: this.address,
+            age: 22
+        });
     }
 
     getPatientAge(){
-        console.log(new Date().getFullYear());
-        console.log(this.age.getFullYear());
         return (new Date().getFullYear() - this.age.getFullYear());
     }
 }
