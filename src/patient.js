@@ -4,7 +4,7 @@ class Patient {
     }
 
     getPatientInfo() {
-        // escreva sua solução aqui    
+        // escreva sua solução aqui    dsfasfsafasdfas
     }
 
     getPatientAge(){
